@@ -1,0 +1,35 @@
+.header{
+    display: block;
+    background-color: #673A44;
+    color: #ffff;
+}
+
+.container_header{
+    padding: 7px 150px;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__list-link{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+
+.header__login-text{
+    text-decoration: none;
+    color: #ffff;
+}
+

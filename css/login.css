@@ -1,0 +1,98 @@
+.body{
+    background-image: url(../images/bg_login.png);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.body_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 40px;
+    
+}
+
+.body_content{
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.body_container{
+    padding-top: 43px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+
+}
+
+.content_title{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 50px;
+    text-align: center;
+
+    margin: 0 70px 30px 70px;
+}
+
+.content_content{
+    display: flex;
+    flex-direction: column;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.content_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.content_email, .content_password{
+    padding: 7px 5px;
+    border-radius: 7px;
+    border: 1px solid #c5c5c5;
+}
+
+.forgot_link{
+    text-decoration: none;
+}
+
+.content_forgot{
+    text-align: end;
+    font-size: 13px;
+    color: rgb(48, 155, 255);
+    margin-bottom: 20px;
+}
+
+.content_btn{
+    padding: 15px;
+    background-color: #673A44;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.content_btn-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px
+}
+
+.checkbox{
+    margin-bottom: 25px;
+}
+
+.log_in-link{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(48, 155, 255);
+    font-size: 20px;
+    margin-bottom: 10px;
+}

@@ -2,6 +2,8 @@
     display: block;
     background-color: #673A44;
     color: #ffff;
+    position: fixed;
+    width: 100%;
 }
 
 .container__header{
@@ -27,7 +29,7 @@
     font-family: Arial;
     font-weight: 400;
     font-style: Regular;
-    font-size: 12px;
+    font-size: 15px;
     vertical-align: middle;
 
 }
@@ -44,7 +46,7 @@
     font-family: Arial;
     font-weight: 400;
     font-style: Regular;
-    font-size: 12px;
+    font-size: 15px;
     vertical-align: middle;
 
 }
@@ -52,11 +54,120 @@
 
 
 .logo{
+    padding-top: 40px;
     background-color: #F2F2F2;
 }
 
 .logo__img{
     display: flex;
     height: 46px;
+
+}
+
+
+
+.first__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 568px;
+}
+
+.first__left{
+    margin-top: 100px;
+}
+
+.first__left-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: re;
+}
+
+.first__title{
+    width: 450px;
+    /* height: 140; */
+    font-size: 70px;
+    line-height: 70px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.first__subtitle{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+    width: 472px;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+.first__btn-btn{
+    width: 420px;
+    border-radius: 6px;
+    gap: 10px;
+    padding: 20px;
+    background-color: #843546;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: #ffff;
+    font-family: "Work Sans", sans-serif;
+}
+
+.first__stars{
+    z-index: 3;
+}
+
+.first__sign-up{
+    height: 568px;
+    margin-bottom: 60px;
+}
+
+.first__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    margin-top: 60px;
+}
+
+.first__content-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 697;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px #F2F2F2; 
+    padding: 46px 40px;
+    gap: 160px;
+}
+
+
+.first__item-title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+
+}
+
+.first__item-subtitle{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+    width: 420px;
+    margin-top: 30px;
 
 }

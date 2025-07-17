@@ -4,11 +4,11 @@
     color: #ffff;
 }
 
-.container_header{
-    padding: 7px 150px;
+.container__header{
+    padding: 7px 100px;
 }
 
-.header_content{
+.header__content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,12 +24,39 @@
 .header__list-link{
     text-decoration: none;
     color: #ffff;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    vertical-align: middle;
+
 }
 
+.header__login-img{
+    vertical-align: middle;
+    margin-right: 9px;
+}
 
 
 .header__login-text{
     text-decoration: none;
     color: #ffff;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    vertical-align: middle;
+
 }
 
+
+
+.logo{
+    background-color: #F2F2F2;
+}
+
+.logo__img{
+    display: flex;
+    height: 46px;
+
+}

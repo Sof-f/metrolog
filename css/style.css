@@ -322,6 +322,33 @@
 
 
 
+.work__container{
+    padding: 99px 253px 65px 256px;
+}
+
+.work__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.work__title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 76px;
+}
+
+.work__subtitle{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+}
+
 
 
 

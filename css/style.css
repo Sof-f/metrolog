@@ -351,7 +351,60 @@
 
 
 
+.arshin__container{
+    padding: 0 340px 50px 340px;
+}
 
+.arshin__title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.arshin__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 200px 0 200px;
+}
+
+.arshin__description-item{
+    box-shadow: 15px 10px 10px #F2F2F2;
+    border-radius: 25px;
+    width: 267px;
+    height: 200px;
+    padding: 46px 20px 36px 20px;
+}
+
+.arshin__description-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.arshin__description-img{
+    margin-bottom: 25px;
+}
+
+.arshin__description-img{
+    width: 77px;
+    align-self: center;
+}
+
+.arshin__description-title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
 
 
 

@@ -683,6 +683,51 @@
 
 
 
+.try__content{
+    display: flex;
+    flex-direction: column;
+    gap: 58px; 
+    padding: 0 229px 118px 229px;
+}
+
+.try__description{
+    text-align: center;
+}
+
+.try__title{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 85px;
+    line-height: 110px;
+}
+
+.try__link{
+    align-items: center;
+    align-self: center;
+}
+
+.try__btn{
+    width: 420;
+    height: 72;
+    gap: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding: 10px;
+    background-color: #843546;
+    border: #6A3B45;
+    padding: 23px 88px;
+    
+
+    color: #ffff;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 21px;
+    line-height: 100%;
+}
+
+
+
 
 
 

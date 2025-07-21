@@ -598,6 +598,45 @@
 
 
 
+.copy{
+    background-color: #F2F2F2;
+}
+
+.copy__container{
+    padding: 88px 161px 112px 253px;
+}
+
+.copy__content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.copy__description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+.copy__title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 76px;
+}
+
+.copy__subtitle{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+
 
 /* 
 @media(max-width:1150px){

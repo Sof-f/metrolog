@@ -637,6 +637,54 @@
 
 
 
+.for__container{
+    padding: 118px 253px 173px 218px;
+}
+
+.for__content{
+    display: flex;
+    flex-direction: row;
+    gap: 77px;
+}
+
+.for__title{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+
+.for__description{
+    align-self: center;
+}
+
+.for__list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+    
+    
+    font-family: Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+
+
+.for__list-item::before{
+    content: "•";
+    margin-right: 15px;
+}
+
+
+
+
+
 
 /* 
 @media(max-width:1150px){
